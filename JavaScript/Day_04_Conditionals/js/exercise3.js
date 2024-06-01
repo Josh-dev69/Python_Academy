@@ -15,3 +15,7 @@ if ((month === "january") || (month === "march") || (month === "may") || (month 
 } else {
     console.log(`Invalid Month/Year`);
 }
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.splice(3, 3, 9, 10, 12)
+console.log(numbers)            // remove the first item
